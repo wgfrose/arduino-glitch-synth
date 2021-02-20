@@ -121,8 +121,8 @@ void updateControl() {
   if (alright < 8) {
     brightness = 0;    // how bright the LED is
     fadeAmount = 5; 
-    centre_freq=0;
-    bandwidth=0;
+    centre_freq = 0;
+    bandwidth = 0;
     digitalWrite(LED_PIN, LOW);
     digitalWrite(LED_PIN, HIGH);
   } 
